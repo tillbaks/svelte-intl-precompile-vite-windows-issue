@@ -6,8 +6,8 @@
     t,
     locale,
   } from "svelte-intl-precompile";
-  register("en", () => import("locales/en.js"));
-  register("de", () => import("locales/de.js"));
+  register("en", () => import("$locales/en.js"));
+  register("de", () => import("$locales/de.js"));
 
   init({
     fallbackLocale: "en",

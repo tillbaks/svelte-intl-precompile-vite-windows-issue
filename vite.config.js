@@ -11,10 +11,6 @@ export default defineConfig({
     alias: [
       { find: "src", replacement: path.resolve(__dirname, "src") },
       {
-        find: "locales",
-        replacement: path.resolve(__dirname, "resources", "locales"),
-      },
-      {
         find: "components",
         replacement: path.resolve(__dirname, "src", "components"),
       },
